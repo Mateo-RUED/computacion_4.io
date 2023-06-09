@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <link rel="stylesheet" href="./estilos_java.css">
+
+    <script src="./funciones.js"></script>
+</head>
+
+<body>
+    
+    <header>
+
+        <h4> ENLACES DE COMPRA </h4>
+
+        <a href="index.html" target="blank"><li>INICIO</li></a>
+
+    </header>
+
+    <hr>
+    <hr>
+
+    <section>
+    
+    <form>
+            <span>Seleccione su prenda</span>
+            <select id="operaciones">
+                <option value="Pantalon">Pantalon</option>
+                <option value="zapatillas">Zapatillas</option>
+                <option value="Buzo">Buzo</option>
+                <option value="Remera">Remera</option>
+
+    
+    
+            </select>
+        <span>Precio 1</span>
+        <input type="number" id="e1" name="e1" placeholder="precio de prenda 1" min="0" max="110" required>
+        <br><br>
+       <br>
+       <br>
+        <span>Seleccione su prenda</span>
+        <select id="operaciones">
+            <option value="Pantalon">Pantalon</option>
+            <option value="zapatillas">Zapatillas</option>
+            <option value="Buzo">Buzo</option>
+            <option value="Remera">Remera</option>
+
+
+        </select>
+
+        <span>Precio 2</span>
+        <input type="number" id="e2" name="e2" placeholder="precio de prenda 2" min="0" max="110" required><br><br>
+       
+ 
+           
+
+        <span> FORMA DE PAGO :</span>
+
+        <label>
+            <input type="checkbox" name="efectivo" value="efectivo" id="efectivo">
+            EFECTIVO
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" name="tarjeta_c" value="tajeta_c" id="tarjeta_c">
+            TARJETA CREDITO
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" name="tajetas_d" value="tarjeta_d" id="tarjeta_d">
+            TARJETA DEBITO
+          </label>
+
+        <br>
+        <br>
+        <span class="required">*</span>
+        <span>NOMBRE</span>
+        <input type="text" id="n1" name="n1" placeholder="Ingrese Su Nombre" required><br><br>
+        <span class="required">*</span>
+        <span>Apellido</span>
+        <input type="text" id="n2" name="n2" placeholder="Ingrese su apellido" required><br><br>
+        
+        <br>
+        <br>
+
+        <button type="button" onclick="suma()">calcular Total</button><br><br>
+        <button type="button" onclick="borrar()">Compra Nueva</button>
+
+          <br>
+          <br>
+
+        <div id="resultado"></div>
+        </form>
+
+        
+
+    </section>
+
+</body>
+</html>

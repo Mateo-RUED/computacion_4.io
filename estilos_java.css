@@ -1,0 +1,33 @@
+
+body{
+
+    background-position: center;
+    background-repeat:repeat;
+    background-image: url(./imagenes/pexels-3.jpg);
+    background-size:cover;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5);
+
+ 
+}
+
+h4{
+
+font-size: 25px;
+
+}
+
+form{
+border: 2px solid #000;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 8px 8px 8px rgba(38, 15, 71, 0.5);;
+}
+
+.required{
+
+color:red;
+margin-left: 10px;
+
+}
